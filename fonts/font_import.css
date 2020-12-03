@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url('Bebas/BEBAS___.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  src: url("Exo_2/Exo2-Medium.ttf");
+}
