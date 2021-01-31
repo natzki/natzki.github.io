@@ -1,10 +1,7 @@
 body {
-  background-image: url("background.jpg");
-  background-size: auto auto;
+  background-image: url("../background.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: scroll;
-  background-origin: padding-box;
   margin: 0px;
 }
 
