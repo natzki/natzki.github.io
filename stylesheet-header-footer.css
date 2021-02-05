@@ -71,7 +71,7 @@ body {
 
 /**/
 
-@media only screen and ( max-width : 600px ) {
+@media only screen and ( max-width : 620px ) {
   .link {
     font-size: 14px;
   }
