@@ -38,7 +38,7 @@ body {
   max-width: 100%;
   display: block;
   /*line-height: 36px;*/
-  line-height: 6vh;
+  line-height: 5vh;
   text-decoration: none;
   color: white;
 }
@@ -50,11 +50,11 @@ body {
   bottom: 0px;
   overflow: hidden;
   width: 100%;
-  /*height: 55px;*/
-  height: 7vh;
+  height: 65px;
   background-color: #222222;
   color: #777777;
-  font-size: 11px;
+  font-size: 14px;
+  line-height: 12px;
   font-family: Arial, sans-serif;
 }
 
@@ -76,7 +76,7 @@ body {
   .link {
     font-size: 14px;
   }
-  .footer {
-    font-size: 9px;
+  .footer2 {
+    display: none;
   }
 }
