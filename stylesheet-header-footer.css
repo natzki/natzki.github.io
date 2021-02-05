@@ -52,7 +52,8 @@ body {
   width: 100%;
   background-color: #222222;
   color: #777777;
-  font-size: 14px;
+  /*font-size: 14px;*/
+  font-size: 1.4vh;
   font-family: Arial, sans-serif;
 }
 
@@ -70,7 +71,7 @@ body {
 
 /**/
 
-@media only screen and ( max-width : 630px ) {
+@media only screen and ( max-width : 600px ) {
   .link {
     font-size: 14px;
   }
