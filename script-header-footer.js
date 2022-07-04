@@ -1,12 +1,16 @@
 function revealEmail() {
-  let contactLink = document.getElementById("contactEmail")
 
-  if (contactLink.innerText === "info.synt@slmail.me") {
-    contactLink.href = "mailto:info.synt@slmail.me";
+  const mailto = "mailto:inf.oio@slmail.me";
+  const email = mailto.substring(7);
+
+  let contactLink = document.getElementById("contactEmail");
+
+  if (contactLink.innerText === email) {
+    contactLink.href = mailto;
     return false;
   }
 
-  contactLink.innerText = "info.synt@slmail.me";
+  contactLink.innerText = email;
 
   return false;;
 }

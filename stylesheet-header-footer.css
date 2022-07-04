@@ -105,6 +105,13 @@ footer {
 
 #contactEmail {
   color: #e47f13;
+  text-decoration: underline;
+}
+
+#contactEmail:hover {
+  color: yellow;
+  font-size: 12px;
+  cursor: pointer;
 }
 
 /* Screen size adjustments */
