@@ -3,17 +3,18 @@
   <head>
     <title>Home | Natzki.nl</title>
     <meta charset="UTF-8">
-    <meta name="description" content="My personal website dedicated to share my knowledge with people, focusing on awareness in the digital world, hard reduction, personal projects and more to come.">
-    <meta name="keywords" content="hard reduction, privacy, security">
-    <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <base href="https://www.natzki.nl/"> -->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="stylesheet-header-footer.css">
     <link rel="stylesheet" href="fonts/font_import.css">
     <script src="script.js"></script>
     <script src="script-header-footer.js"></script>
+
+    <meta name="description" content="My personal website dedicated to sharing facts and awareness in the digital world, practising harm reduction, my personal projects and more to come.">
+    <meta name="keywords" content="hard reduction, privacy, security">
+    <meta name="author" content="">
+    <!-- <base href="https://www.natzki.nl/"> -->
   </head>
   <body>
 
@@ -21,14 +22,14 @@
 
     <div id="header">
       <div class="link-text"><a href="hungergames">Hunger Games</a></div>
-      <div class="link-text"><a href="hardreduction">Safer Use</a></div>
+      <div class="link-text"><a href="harmreduction">Safer Use</a></div>
       <div class="link-text"><a href="privacy">Privacy</a></div>
       <div class="link-text"><a href="spice">Spice</a></div>
       <div class="link-text"><a href="jorge">Anti-Jorge</a></div>
     </div>
 
     <h1 id="titleheader">Natzki.nl</h1>
-    <div class="maintext">
+    <div id="main">
       <a class="header-link" href="spice"><h2 class="header">Aktuelles Projekt: Synthetisches Cannabis in der Schweiz! Bitte über die jetzige Situation lesen</h3></a>
         <br><br>
         <p class="maintext">
@@ -72,19 +73,44 @@
           <br>
           Greeetz und unglaublich viel Danke a jede wo (zuelost und) mithilft
         </p>
-    </div>
-    <div class="push"></div>
 
-    <div id="footer">
+    </div>
+
+    <div id="links">
+      <table>
+        <tr><th>Overview</th></tr>
+        <tr><td><a href="#">About</a></td></tr>
+        <tr><td><a href="#">Sitemap</a></td></tr>
+        <tr><td><a href="#">Donate</a></td></tr>
+        <tr><td><a href="#">Contact</a></td></tr>
+      </table>
+      <table>
+        <tr><th>Legal</th></tr>
+        <tr><td><a href="#">Terms of Use</a></td></tr>
+        <tr><td><a href="#">Privacy Policy</a></td></tr>
+        <tr><td><a href="#">Documentation</a></td></tr>
+        <tr><td><a href="#">Source Code</a></td></tr>
+      </table>
+      <table>
+          <tr><th>Resources</th></tr>
+          <tr><td><a href="#">Community</a></td></tr>
+          <tr><td><a href="#">Links</a></td></tr>
+          <tr><td><a href="#">Downloads</a></td></tr>
+          <tr><td><a href="#">Socials</a></td></tr>
+      </table>
+    </div>
+
+    <footer>
       <div id="copyright">
         <p>xD</p>
         <p>Copyright © <span style="color: purple;">Natzki</span> | 2015 - 2022</p>
       </div>
+
       <div id="contact">
         <p>You are the universe experiencing itself</p>
         <p>Contact: <a href="#" id="contactEmail" onclick="revealEmail();" onmouseover="this.style.color='yellow';" onmouseout="this.style.color='#e47f13'">Reveal E-Mail</a></p>
       </div>
-    </div>
-    
+
+    </footer>
   </body>
 </html>
