@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <meta http-equiv="refresh" content="0; URL=./signal/index.html" />
-  </head>
-  <body style="font-family: Arial; padding: 30px; background-image: url(../background.jpg)">
-    <h2>Der QR-Code wird dich jetzt weiterleiten und dich in die Signal Messenger Gruppe einladen.<br><br>
-      Falls du diese Seite hier immernoch siehst, <a href="https://signal.group/#CjQKIIVoLVgJB7QCtuAGmneDhrVovLq0-0YIBAxJRiUOjpAhEhBvoVDDNMrBQaaUFdvq-K-P" style="color: red; font-weight: bold;">klicke hier</a> um der Signal Gruppe beizutreten.</h2>
+      <title>Anti-Jorge International | Natzki.nl</title>
+      <meta http-equiv="refresh" content="0; URL=https://signal.group/#CjQKIIVoLVgJB7QCtuAGmneDhrVovLq0-0YIBAxJRiUOjpAhEhBvoVDDNMrBQaaUFdvq-K-P">
+      <meta charset="utf-8">
+      <base href="#">
 
-      <h2>
-        Falls du diese Seite hier immernoch siehst, <a href="https://discord.gg/3834A5pfPm" style="color: red; font-weight: bold;">klicke hier</a> um der Discord Gruppe beizutreten.
-      </h2>
+      <script>
+        function putHrefLink() {
+          let httpEquivUrl= document.getElementsByTagName("meta")[0].getAttribute("content").substring(7);
+          let baseTag = document.getElementsByTagName("base")[0];
+
+          baseTag.setAttribute("href", httpEquivUrl);
+          document.getElementById("link").innerText = baseTag.getAttribute("href");
+        }
+      </script>
+
+  </head>
+  <body onload="putHrefLink();" style="font-family: Arial; padding: 30px; background-image: url(../background.jpg)">
+
+    <p>Der QR-Code wird dich jetzt weiterleiten und dich in die Signal Messenger Gruppe einladen.<br><br>
+      Falls du diese Seite hier immernoch siehst, <a href="/" style="color: red; font-weight: bold;">klicke hier</a> um der Signal Gruppe beizutreten (oder kopiere diesen Link in deinen Browser:<br><span id ="link" style="color: blue; text-decoration: underline;">https://signal.group/#CjQKIIVoLVgJB7QCtuAGmneDhrVovLq0-0YIBAxJRiUOjpAhEhBvoVDDNMrBQaaUFdvq-K-P | Please enable JavaScript if this link does not work. 7/2022</span> ).
+    </p>
 
   </body>
 </html>
