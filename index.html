@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Natzki.nl</title>
+    <title>Home | Natzki.nl</title>
     <meta charset="UTF-8">
-    <link type="text/css" rel="stylesheet" href="stylesheet.css">
-    <link type="text/css" rel="stylesheet" href="stylesheet-header-footer.css">
-    <link type="text/css" rel="stylesheet" href="fonts/font_import.css">
-    <link rel="icon" type="image/png" href="favicon.png">
-    <noscript>Manche Elemente können ohne Javascript nicht gealden werden.</noscript>
+    <meta name="description" content="My personal website dedicated to share my knowledge with people, focusing on awareness in the digital world, hard reduction, personal projects and more to come.">
+    <meta name="keywords" content="hard reduction, privacy, security">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <base href="https://www.natzki.nl/"> -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="stylesheet-header-footer.css">
+    <link rel="stylesheet" href="fonts/font_import.css">
+    <script src="script-header-footer.js"></script>
   </head>
   <body>
-    <div class="links">
-      <div class="link-text"><a href="mchg" class="link">MC-HG Server</a></div>
-      <div class="link-text"><a href="spice" class="link">Spice</a></div>
+
+    <noscript><p id="noscriptText">Warnung: JavaScript ist deaktiviert. Gewisse Elemente könnten ohne Javascript möglicherweise nicht funktionieren!<p></noscript>
+
+    <div id="links">
+      <div class="link-text"><a href="hungergames" class="link">Hunger Games</a></div>
+      <div class="link-text"><a href="hardreduction" class="link">Safer Use</a></div>
       <div class="link-text"><a href="privacy" class="link">Privacy</a></div>
+      <div class="link-text"><a href="spice" class="link">Spice</a></div>
+      <div class="link-text"><a href="jorge" class="link">Anti-Jorge</a></div>
     </div>
+
     <h1 id="titleheader">Natzki.nl</h1>
-    <div class="maintext">
+    <div id="maintext">
       <a class="header-link" href="spice"><h2 class="header">Aktuelles Projekt: Synthetisches Cannabis in der Schweiz! Bitte über die jetzige Situation lesen</h3></a>
         <br><br>
         <p class="maintext">
@@ -58,22 +69,19 @@
           Da wers nötigste, meh info oder links zu de Statistike vo Saferparty und EMCDDA gern üsem Matrix/Element Gruppechat bitrette. Mir werded so wenig wie nötig uf Social Media poste sondern uf Element und dere Website.
           <br>
           <br>
-          <a class="ref" href="https://matrix.to/#/#spice-switzerland:matrix.org">Link zum Gruppechat</a>
-          <br>
-          <br>
           Greeetz und unglaublich viel Danke a jede wo (zuelost und) mithilft
         </p>
     </div>
     <div class="push"></div>
-    <div class="footer">
-      <div class="copyright">
+
+    <div id="footer">
+      <div id="copyright">
         <p>xD</p>
-        <p>Copyright © <span style="color: purple;">Natzki</span> 2015 - 2021. All rights reserved.</p>
+        <p>Copyright © <span style="color: purple;">Natzki</span> | 2015 - 2022</p>
       </div>
-      <div class="footer2">
+      <div id="contact">
         <p>You are the universe experiencing itself</p>
-        <p>Contact: <a href="mailto:info@natzki.nl" style="color: #e47f13;" onmouseover="this.style.color='yellow';"
-            onmouseout="this.style.color='#e47f13'">(E-Mail hidden for now)</a></p>
+        <p>Contact: <a href="#" id="contactEmail" onclick="revealEmail();" onmouseover="this.style.color='yellow';" onmouseout="this.style.color='#e47f13'">Reveal E-Mail</a></p>
       </div>
     </div>
   </body>
