@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Minecraft Classic Hunger Games</title>
-<!--    <meta http-equiv="content-type" content="text/html; charset=windows-1252"> -->
-    <meta charset="utf-8">
-    <link type="text/css" rel="stylesheet" href="stylesheet.css">
-    <noscript>Manche Elemente können ohne Javascript nicht gealden werden.</noscript>
+      <meta http-equiv="refrsh" content="0; URL=https://discord.gg/bFB3ge9GmE" />
+      <base id ="baseHref" href="#">
+      <script>
+        function putHrefLink() {
+          let baseTag = document.getElementsByTagName("base")[0];
+          let httpEquivUrl= document.getElementsByTagName("meta")[0].getAttribute("content").substring(7);
+
+          baseTag.setAttribute("href", httpEquivUrl);
+          document.getElementById("link").innerText = baseTag.getAttribute("href");
+        }
+      </script>
   </head>
-  <body>
-    <p>Join our Discord Server to come along this project of reviving the classic Minecraft Hunger Games: <a href="https://discord.gg/bFB3ge9GmE">https://discord.gg/bFB3ge9GmE</a></p>
-    <iframe src="https://discord.com/widget?id=527234400862076955&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+  <body onload="putHrefLink();" style="font-family: Arial; padding: 30px; background-image: url(../background.jpg)">
+
+      <p>Join our Discord Server to come along this project of reviving the classic Minecraft Hunger Games</p>
+
+      <p>If you are not immediately redirected, <a href="/" style="color: red; font-weight: bold;">click here</a>, or alternatively copy and paste this link in your browser: <span id ="link" style="color: blue; text-decoration: underline;">https://discord.gg/bFB3ge9GmE (Please enable JavaScript if this link does not work)</span></p>
+
   </body>
 </html>
