@@ -1,12 +1,12 @@
-html {
-
-}
-
 body {
   background-image: url("background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0px;
+}
+
+a {
+  color: deepskyblue;
 }
 
 #noscriptText {
