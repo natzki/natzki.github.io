@@ -19,7 +19,7 @@
   margin-left: 10px;
   font-family: "Ebrima";
   overflow: hidden;
-  display: inline-block;
+  /*display: inline-block;*/
   max-width: 200px;
   min-height: inherit;
   height: 100%;
@@ -56,16 +56,16 @@
 
 #links table {
   display: inline-block;
-  padding: 0 10% 20px 10%;
+  padding: 0 12.5% 20px 12.5%;
 }
 
 #links tr {
-  height: 25px;
+  height: 13px;
 }
 
 #links th {
     font-size: 18px;
-    line-height: 3;
+    line-height: 2.5;
     letter-spacing: 1.25px;
 }
 
@@ -116,7 +116,7 @@ footer {
 
 /* Screen size adjustments */
 
-@media only screen and ( max-width : 1080px ) {
+@media only screen and ( max-width : 1300px ) {
   .link-text {
     min-width: 50px;
     max-width: 17%;
