@@ -6,7 +6,7 @@ body {
 }
 
 a {
-  color: rgb(7, 44, 129);
+  color: rgb(177, 207, 252);
 }
 
 #noscriptText {
@@ -41,10 +41,6 @@ a {
   padding: 0 60px 0 60px;
   margin-bottom: 50px;
   font-family: Arial;
-}
-
-.header-link {
-  color: rgb(177, 207, 252);
 }
 
 .header {
