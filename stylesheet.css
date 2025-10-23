@@ -4,17 +4,6 @@ body {
   margin: 0px;
 }
 
-a {
-  color: rgb(177, 207, 252);
-}
-
-#noscriptText {
-  color: DarkOrange;
-  font-family: Helvetica;
-  font-size: 16px;
-  padding: 20px 0 0 40px;
-}
-
 .ul-header {
   text-align: center;
 }
@@ -51,4 +40,11 @@ a {
   text-align: center;
 }
 
-html, body {  }
+a {
+  color:rgb(133, 255, 255);
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
